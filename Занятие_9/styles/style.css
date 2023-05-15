@@ -1,0 +1,183 @@
+@import url(./variables.css);
+@import url(./library.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style-type: none;
+}
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #101010;
+}
+
+/* HEADER */
+
+.header-container {
+  width: 1512px;
+  height: 980px;
+  background-image: url(../public/images/ballet_school/school_solo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: var(--primary-bg-title);
+}
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 128px;
+}
+.header-logo {
+  font-family: var(--secondary-font);
+  font-size: var(--fs-m);
+  line-height: var(--line-height-m);
+}
+.header-nav_container {
+  display: flex;
+  justify-content: space-between;
+  width: 602px;
+}
+.header-nav_tittle {
+  font-family: var(--third-font);
+  font-size: var(--fs-s);
+  line-height: var(--line-height-m);
+}
+.header-main_text {
+  margin-top: 200px;
+  margin-left: var(--margin-xxxl);
+}
+.header-main_title {
+  font-family: var(--third-font);
+  font-size: var(--fs-xxl);
+  line-height: var(--line-heigh-xl);
+}
+
+.header-container_sub-photo {
+  background-image: url(../public/images/ballet_school/school_many.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1512px;
+  height: 599px;
+}
+/* ABOUT US */
+
+.about_us-title_container {
+  padding-top: 120px;
+  padding-bottom: var(--padding-xxl);
+}
+
+.about_us-subtitle {
+  width: 692px;
+  padding-bottom: 20px;
+}
+.about_us-wrapper {
+  margin-top: var(--margin-xxl);
+  background-image: url(../public/images/about_us/about_solo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 1256px;
+  height: 469px;
+}
+/* DIRECTION */
+.direction-container {
+  width: 1256px;
+}
+.direction_title {
+  padding-top: 120px;
+  padding-bottom: var(--padding-xxl);
+}
+.directions_subtitle-container {
+  margin-bottom: var(--margin-xxl);
+}
+.direction_subtitle-box {
+  display: flex;
+  flex-direction: column;
+}
+.direction_subtitle-main {
+  display: flex;
+  justify-content: space-between;
+  padding-top: var(--padding-m);
+  align-items: center;
+}
+.direction_subtitle-main p {
+  width: 736px;
+}
+.direction_subtitle-main img {
+  width: 259px;
+  height: 92px;
+}
+/* TRAINERS */
+
+.trainers_title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: var(--padding-xxl);
+}
+.trainers_container-global {
+  display: flex;
+  justify-content: space-between;
+}
+.trainers_container-personal {
+  display: flex;
+}
+.trainers_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.trainers_box img {
+  width: 363px;
+  height: 394px;
+  padding-bottom: var(--padding-s);
+}
+.trainers_container-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: var(--margin-xxl);
+  color: var(--primary-bg-title);
+}
+.trainers_container-button img {
+  margin-left: var(--margin-xs);
+  width: 30px;
+}
+/* GROUPS */
+.groups-title {
+  margin-top: 120px;
+  margin-bottom: var(--margin-xxl);
+}
+.groups-container {
+  display: flex;
+}
+
+.groups-upper {
+  width: 730px;
+  height: 523px;
+  background-image: url(../public/images/groups/upper_ballet.png);
+  background-size: contain;
+  margin-right: var(--margin-s);
+  display: flex;
+  align-items: end;
+  padding-bottom: var(--padding-s);
+  padding-left: var(--padding-s);
+}
+.groups-junior {
+  width: 506px;
+  height: 523px;
+  background-image: url(../public/images/groups/junior_ballet.png);
+}
+.groups-text_box p {
+  margin-top: 20px;
+}

@@ -1,0 +1,4 @@
+npm run <mode>
+
+dev - > mode of development . All work as it should
+build - > mode of deploy . File-Minification mode , which create dist (dir) . Then all files in the project will be pushed there.  

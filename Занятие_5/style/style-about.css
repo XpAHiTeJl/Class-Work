@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-y: hidden;
+  background-image: url(/Занятие_5/images/background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#app {
+  display: flex;
+}
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  border-bottom: solid;
+  padding: 1vh;
+}
+.Logo-Header-img {
+  width: auto;
+  height: 130px;
+}
+
+/* container  main */
+.container-aside-main {
+  display: flex;
+}
+
+/* main */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container-main {
+  display: flex;
+  height: 66vh;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Main-product {
+  display: flex;
+  width: 30vh;
+  height: 30vh;
+  border: 2px solid;
+  border-radius: 15px;
+  border-color: aliceblue;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  flex-direction: column;
+}
+.Main-product-images {
+  display: flex;
+}
+.Logo-Header {
+  width: auto;
+  height: 250px;
+}
+.text-main-main {
+  padding: 20px;
+}
+.Main-product h5 {
+  color: white;
+}
+/* footer */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 25vh;
+
+  flex-direction: row;
+  border-top: 2px solid;
+  background-image: url(/Занятие_5/images/background-footer.png);
+  background-size: 100%;
+}
+.container-footer-text {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  width: 20%;
+}
+.container-map {
+  display: flex;
+  width: 33%;
+}
+.container-footer-maps {
+  margin-bottom: 55px;
+}
+.Container-footer-contacts {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.Container-footer-contacts a {
+  color: white;
+  text-decoration: none;
+}
+.Container-footer-contacts h5 {
+  margin-top: 10px;
+}

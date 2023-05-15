@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "montserrat";
+  src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+:root {
+  /* Font Family */
+  --font-family-montserrat: "montserrat";
+  /* Margin+padding */
+  --margin_left_header: 36px;
+  --padding_header: 44px, 44px;
+  /* Font weight */
+  --font-weight-xl: 600;
+  --font-weight-xxl: 700;
+  --font-weight-twitter: 400;
+  --font-weight-twitter-text: 500;
+  /* Font size */
+  --font-size-twitter: 12px;
+  --font-size-twitter-text: 18px;
+  --font-size-name: 14px;
+  /* spacing */
+  --letter-spacing-twitter: -0.02em;
+  --letter-spacing-twitter-dog: -0.03em;
+  --letter-spacing-twitter-text: -0.01em;
+  --letter-spacing-footer: -0.05em;
+
+  /* linear */
+  --line-height-twitter-text: 150%;
+  --line-height-twitter-low: 15px;
+
+  /* Color text */
+  --color-full-text: #ffffff;
+  --color-twitter: rgba(255, 255, 255, 0.6);
+}

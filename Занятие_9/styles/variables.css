@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "assistan";
+  src: url("../public/fonts/Assistant/Assistant-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "inter";
+  src: url("../public/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+@font-face {
+  font-family: "kaisei";
+  src: url("../public/fonts/Kaisei_Opti/KaiseiOpti-Regular.ttf");
+}
+
+:root {
+  /* BG */
+  --primary-bg-title: #ffffff;
+  --primary-bg-subtitle: #d9d9d9;
+
+  /* FONT-FAMILY */
+  --primary-font: "assistan";
+  --secondary-font: "inter";
+  --third-font: "kaisei";
+
+  /* FONT-SIZE */
+  --fs-xxl: 80px;
+  --fs-xl: 60px;
+  --fs-l: 24x;
+  --fs-m: 20px;
+  --fs-s: 18px;
+  --fs-xs: 16px;
+
+  /* line-height */
+  --line-heigh-xl: 116px;
+  --line-height-l: 87px;
+  --line-height-m: 26px;
+  --line-height-s: 24px;
+
+  /* MARGIN */
+  --margin-xxxl: 128px;
+  --margin-xxl: 60px;
+  --margin-xl: 50px;
+  --margin-l: 40px;
+  --margin-m: 30px;
+  --margin-s: 20px;
+  --margin-xs: 10px;
+
+  /* PADDING */
+  --padding-xxxl: 128px;
+  --padding-xxl: 60px;
+  --padding-xl: 50px;
+  --padding-l: 40px;
+  --padding-m: 30px;
+  --padding-s: 20px;
+  --padding-xs: 10px;
+}

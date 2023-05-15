@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    overflow-y: hidden;
+}
+/* Голова */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid;
+    flex-direction: row;
+    background-image: linear-gradient(to left, violet, red);
+}
+.header-logo-icon{
+    margin: 0px 25px 10px 25px;
+}
+header img{
+    width: 5%;
+}
+.container-searc-navigation{
+    display: flex;
+    flex-direction: column
+}
+.header-input-search{
+    width: 62vh;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 50px;
+}
+.header-input-search::placeholder{
+    color: #ee08db;
+}
+.header-input-submit{
+    border-radius: 10px;
+    padding: 5px;
+    color: #ee08db; 
+}
+/* Навигация  в голове */
+nav{
+    align-self: center; 
+}
+a{
+    text-decoration: dotted;
+    margin: 0px 40px 0px 40px;
+    color:aliceblue;
+}
+/* Глобальный контейнер сайд бара + мейна */
+.container-aside-main{
+    display: flex;
+    height: 100%;
+
+}
+aside{
+    width: 20%;
+    height: 88vh;
+    border-right: solid;
+    background-image: linear-gradient(-110deg, #e21ce2, #e04e4e);
+}
+.container-aside{
+    text-align: start;
+}
+.aside-navigation{
+    text-align: start;
+}
+.aside-navigator-text{
+    display: block;
+    margin: 10vh;
+    color:aliceblue;
+}   
+/* Менй */
+main{
+    background-color: #b377ae;
+    width: 100%;
+    background-image: linear-gradient(to bottom, violet, rgb(85, 23, 87));
+}
+.container-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.main-images{
+    width: 30%;
+    margin-top: 25px;
+}
+.container-main h5{
+    margin-top: 45px;
+    width:650px;
+    color:bisque;
+}
+/* Подвал */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid;
+    background-image: linear-gradient(to top, violet, rgb(147, 36, 151));
+    
+}

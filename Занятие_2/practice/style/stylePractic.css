@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#app{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    background-color: rgb(25, 83, 192);
+    font-family: cursive;
+    overflow-y: hidden;
+}
+/* Heder */
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    border-bottom: solid;
+}
+.pepsiLogo{
+    width: 5%;
+}   
+.Header-Serach{
+    display: inline-flex;
+}
+.Header-Serach h4{ 
+    margin-right: 30px;
+}
+a{
+    color: rgb(21, 8, 22);
+    padding: 20px;
+    text-decoration: none;
+}
+a:hover{ color: rgb(255, 255, 255);}
+.button-container button {
+    border: solid 2px;
+    padding: 5px;
+}
+.button-container button:hover{
+    color: rgb(255, 255, 255);
+    background: crimson;
+    transition: background 0.5s, color 0.5s;
+    border: 1px solid;
+}
+
+/* Main */
+main{
+    height: 87vh;
+    display: flex;
+    justify-content: center;
+}
+.main-pepsi{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-top: 3%;
+}
+.main-pepsi h3{
+    text-align: center;
+    padding: 5px 5px;
+    margin-bottom:  10px;
+}
+.imgPepsi{
+    display: flex;
+    justify-content: center;
+}
+.main-pepsi img{
+    width: 100%;
+}
+.main-pepsi h2{
+    text-align: center;
+    color: aliceblue;
+    margin: 10px 10px;
+}
+.main-pepsi p{
+    margin-top: 10px;
+}
+.text-span-main{
+    color: aliceblue;
+}
+.price-color{
+    color: rgb(255, 70, 107);
+}
+.main-pepsi button{
+    border: solid ;
+    padding: 5px;
+}
+.main-pepsi button:hover{
+    color: rgb(255, 255, 255);
+    background: crimson;
+    transition: background 0.5s, color 0.5s;
+    border: 1px solid;
+}
+/* Footer */
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid;
+}   
+.footer-pepsi-icon{
+    width: 2%;
+}
+
+
+

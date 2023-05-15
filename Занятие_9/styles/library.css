@@ -1,0 +1,27 @@
+.upper {
+  text-transform: uppercase;
+}
+.title {
+  font-family: var(--third-font);
+  font-size: var(--fs-xl);
+  line-height: var(--line-height-l);
+  color: var(--primary-bg-title);
+}
+.subtitle {
+  color: var(--primary-bg-subtitle);
+  font-family: var(--primary-font);
+  font-size: var(--fs-s);
+  line-height: var(--line-height-s);
+}
+.colorsub {
+  color: var(--primary-bg-title);
+}
+.content {
+  width: 1256px;
+}
+.directiontitle {
+  font-family: var(--primary-font);
+  font-size: var(--fs-l);
+  line-height: 31px;
+  color: var(--primary-bg-title);
+}

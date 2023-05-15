@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#app {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+body {
+  background-image: url(../images/backgound-logo.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+fieldset {
+  border: 0;
+  color: white;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  border-width: 1px 3px 5px 6px;
+  border-radius: 30px 10px;
+  border-radius: 2rem;
+  background-image: url(../images/background-login.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.form-fieldset {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+  padding: 15px;
+}
+.form-input {
+  background: inherit;
+  border: none;
+  color: white;
+  border-bottom: 2px solid;
+  font-weight: bold;
+}
+label {
+  font-weight: 900;
+  margin-left: 60px;
+}
+.button-pusch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+}
+.button-name {
+  font-weight: bolder;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+  background: inherit;
+  color: white;
+  border-color: white;
+  transition: 1s, color 0.5s;
+}
+.button-name:hover {
+  background-color: rgb(55, 15, 82);
+  transition: 1s, color 0.5s;
+}

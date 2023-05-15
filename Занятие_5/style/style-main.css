@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "montserrat";
+  src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: "roboto";
+  src: url(../fonts/Roboto_Condensed/RobotoCondensed-BoldItalic.ttf);
+}
+:root {
+  /* IMG backgorund hight */
+  --height-background: 143vh;
+  /* Text-color */
+  --text-color: #e65310;
+  /* BORDER */
+  --border-top-header: 3px solid #e65310;
+  --border-top-footer: 3px solid #e65310;
+  --border-header-nav-search: 3px solid #e65310;
+  /* Background-Button */
+  --background-button: #e65310;
+  /* FONT-SIZE */
+  --font-size-title: 20px;
+  --font-size-short-description: 17px;
+  --font-size-text: 14px;
+  /* Font Family */
+  --font-family-roboto: "roboto";
+  --font-family-montserrat: "montserrat";
+}

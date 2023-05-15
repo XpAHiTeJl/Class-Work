@@ -1,0 +1,6 @@
+@import url("./css/variables.scss");
+@media (min-width:576px) {
+    #app {
+        background: var(--primary-bg);
+    }    
+}
